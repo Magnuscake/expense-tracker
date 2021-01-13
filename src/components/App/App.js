@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Header } from '../Header/Header';
 import { Balance } from '../Balance/Balance';
-import { Expenses } from '../Expenses/Expenses';
+import { IncomeExpenses } from '../IncomeExpenses/IncomeExpenses';
 import { TransactionList } from '../TransactionList/TransactionList';
 import { AddTransaction } from '../AddTransaction/AddTransaction';
 
@@ -16,7 +16,7 @@ const App = () => {
       <Header />
       <div className="container">
         <Balance />
-        <Expenses />
+        <IncomeExpenses />
         <TransactionList />
         <AddTransaction />
       </div>
